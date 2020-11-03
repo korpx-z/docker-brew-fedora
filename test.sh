@@ -7,8 +7,8 @@ export ANSI_RESET="\e[0m"
 echo -e "\n $ANSI_YELLOW *** testing docker run - fedora *** $ANSI_RESET \n"
 
 echo -e "$ANSI_YELLOW Display current directory: $ANSI_RESET"
-docker run -i --rm --name some_fedora quay.io/ibmz/fedora-s390x:34 echo "hello world!"
-docker stop some_fedora
+docker run -i --name fedora quay.io/ibmz/fedora-s390x:34 echo "hello world!"
+docker stop fedora
 
 
 echo -e "\n $ANSI_GREEN *** TEST COMPLETED SUCESSFULLY *** $ANSI_RESET \n"
