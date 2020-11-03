@@ -8,7 +8,7 @@ env:
 #    - TEST_SCRIPT="test.sh"
     - BUILD_DIR="$PWD/s390x/"
     - REPO="quay.io/ibmz/fedora-s390x"
-    - TAG="$REPO:39"
+    - TAG="$REPO:34"
 before_script: 
   - cd $BUILD_DIR && chmod +x *
 #  - cd $TEST_DIR && chmod +x $TEST_SCRIPT
