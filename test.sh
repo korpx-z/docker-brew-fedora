@@ -7,9 +7,8 @@ export ANSI_RESET="\e[0m"
 echo -e "\n $ANSI_YELLOW *** testing docker run - alpine *** $ANSI_RESET \n"
 
 echo -e "$ANSI_YELLOW Display current directory: $ANSI_RESET"
-docker volume create testgit
-docker run -i --rm --name some_git --mount source=testgit,target=/git quay.io/ibmz/git:latest clone https://github.com/korpx-z/hello.git
-docker run --rm -i -v=testgit:/tmp/myvolume quay.io/ibmz/busybox:musl cat /tmp/myvolume/hello/hello.txt
+docker run -i --rm --name some_fedora quay.io/ibmz/fedora-s390x:34 echo "hello world!"
+docker stop some fedora
 
 
 echo -e "\n $ANSI_GREEN *** TEST COMPLETED SUCESSFULLY *** $ANSI_RESET \n"
