@@ -17,7 +17,7 @@ This image is a relatively small footprint in comparison to a standard Fedora in
 __Versions:__ <br />
 32, 34 <br />
 
-`docker run -it --name some_fedora quay.io/ibmz/fedora-s390x:34`
+`docker run -it --name some_fedora quay.io/ibm/fedora-s390x:34`
 <br />
 
 # License
