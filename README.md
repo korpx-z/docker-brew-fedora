@@ -3,7 +3,7 @@ docker-brew-fedora
 
 Versions 32 and 34 are built within their respected branches (s390x)
 
-###This image is built to run on s390x architecture. (versions 32, 34 are available)
+### This image is built to run on s390x architecture. (versions 32, 34 are available)
 -    [build source](https://github.com/korpx-z/docker-brew-fedora) 
 -    [original source code](https://github.com/fedora-cloud/docker-brew-fedora)
 
